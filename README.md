@@ -8,12 +8,12 @@ it is my 2nd static website
 console.log(`${Date()} :: This is a starter template for a simple web app.`);
 ```
 
-## Creating the repository
+### Creating the repository
 
 Step 1= creating a repository namely:sample
 ![Step1](documentation/images/S1.png)
 
-### Cloning the repository to GitHub desktop
+#### Cloning the repository to GitHub desktop
 
 Step 2= Cloning the repository to GitHub desktop
 ![Step2](documentation/images/s2.png)
@@ -60,4 +60,43 @@ Step 3= Opening in visual studio code
     </div>
 </body>
 
-</html>```
+</html>
+```
+
+#### CSS
+
+```@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1C1678;
+}
+
+i {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: blueviolet;
+}
+```
+
+##### script.js
+
+``` console.log(`${Date()} :: This is a starter template for a simple web app.`);
+```
